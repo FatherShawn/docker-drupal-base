@@ -29,3 +29,6 @@ ENV LC_ALL C.UTF-8
 RUN curl -sSL "https://github.com/tianon/gosu/releases/download/1.7/gosu-$(dpkg --print-architecture)" -o /usr/local/bin/gosu && \
     chown root:users /usr/local/bin/gosu && \
     chmod +sx /usr/local/bin/gosu
+
+# Set TERM so text editors/etc. can be used
+ENV TERM xterm
