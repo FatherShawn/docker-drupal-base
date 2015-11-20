@@ -13,7 +13,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y --force-yes --no-install-recommends install \
     locales \
     supervisor \
-    sudo \
     procps \
     mc \
     # Cleanup
