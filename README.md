@@ -1,3 +1,3 @@
 # Drupal Base
 
-Base Linux image for all other Drupal images
+Base Linux images for all other Drupal images
